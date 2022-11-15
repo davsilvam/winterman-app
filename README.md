@@ -57,7 +57,7 @@ npm run dev
 npm run build
 ```
 
-## :ballon: Inspiração
+## :balloon: Inspiração
 
 Projeto inspirado no [vídeo do Mateus Battisti](https://www.youtube.com/watch?v=VS8EBgPwsSU&t=125s).
 
