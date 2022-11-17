@@ -31,6 +31,7 @@ Tecnologias utilizadas no projeto.
 * [Node e NPM](https://nodejs.org/en/);
 * [Vite](https://vitejs.dev);
 * [Open Weather API](https://openweathermap.org);
+* [Country Flags API](https://countryflagsapi.com);
 * Visual Studio Code;
 * [Remixicon](https://remixicon.com);
 * Google Fonts.
@@ -38,6 +39,12 @@ Tecnologias utilizadas no projeto.
 ## :rocket: **Configurações e Instalação**
 
 Veja [documentação de configuração do Vite](https://vitejs.dev/config/).
+
+### **Clonando o Projeto**
+
+```sh
+git clone https://github.com/davsilvam/winterman-app.git
+```
 
 ### **Executando o Projeto**
 
