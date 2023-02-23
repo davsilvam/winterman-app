@@ -27,7 +27,7 @@
         <i class="ri-map-pin-line"></i>
         <h3 class="font-semibold">{{ weather.cityName }}</h3>
       </div>
-      <div class="w-8 text-lg"><img class="w-full" :src="weather.countrySrc"></div>
+      <div class="w-8 text-lg"><img crossorigin="anonymous" class="w-full" :src="weather.countrySrc"></div>
     </div>
   </div>
 </template>
