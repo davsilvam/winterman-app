@@ -1,4 +1,4 @@
-# Link Pack
+# Winterman
 ## :snowman: **Projeto**
 
 <h1 align="center">
@@ -7,8 +7,9 @@
 
 O Winterman é um projeto criado com a [Open Weather API](https://openweathermap.org), uma API de clima, e se baseia em um página que traz o clima da cidade que o usuário pesquisar.
 
-## :link: **Link**
-*[Link do projeto.](https://winterman-app.vercel.app)*
+<p align="center">
+   <a href="https://winterman-app.vercel.app">Veja o projeto completo aqui.</a>
+</p>
 
 ## :art: **Visual do Projeto**
 ### *Desktop e Telas Maiores*
@@ -31,6 +32,7 @@ Tecnologias utilizadas no projeto.
 * [Node e NPM](https://nodejs.org/en/);
 * [Vite](https://vitejs.dev);
 * [Open Weather API](https://openweathermap.org);
+* [Country Flags API](https://countryflagsapi.com);
 * Visual Studio Code;
 * [Remixicon](https://remixicon.com);
 * Google Fonts.
@@ -38,6 +40,12 @@ Tecnologias utilizadas no projeto.
 ## :rocket: **Configurações e Instalação**
 
 Veja [documentação de configuração do Vite](https://vitejs.dev/config/).
+
+### **Clonando o Projeto**
+
+```sh
+git clone https://github.com/davsilvam/winterman-app.git
+```
 
 ### **Executando o Projeto**
 
