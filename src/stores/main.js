@@ -114,8 +114,6 @@ export const useWeather = defineStore('weather', () => {
     suggest.value = false
     loading.value = false
 
-    console.log(data)
-
     return data
   }
 
