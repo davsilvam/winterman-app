@@ -1,33 +1,42 @@
-<script setup>
-  import { ref } from 'vue'
-  import { useWeather } from '@/stores/main'
+<script lang="ts" setup>
+  import Drop from './Icons/Drop.vue'
 
-  const weather = useWeather()
+  import { useWeather } from '../stores'
+  const { city, countryFlagSrc } = useWeather()
 </script>
 
 <template>
   <div class="w-full flex flex-col gap-2">
     <div class="flex justify-center items-center gap-6 text-slate-100">
-      <h2 class="text-6xl">
-        {{ weather.cityTemperature }}<span class="text-lg align-top"><i class="ri-celsius-fill"></i></span>
-      </h2>
-      <div class="flex flex-col items-start justify-between">
+      <strong class="text-6xl">
+        {{ city.temperature + '°' }}
+      </strong>
+
+      <div class="flex flex-col items-center justify-center">
         <div class="flex items-center gap-1">
-          <i :class="weather.cityWeatherIcon"></i>
-          <h3 class="max-w-32 capitalize">{{ weather.cityWeather }}</h3>
+          <img
+            class="w-7"
+            :src="city.icon"
+            alt="Weather icon." />
+          <strong class="capitalize">{{ city.weather }}</strong>
         </div>
         <div class="flex items-center gap-1">
-          <i class="ri-drop-line"></i>
-          <h3 class="font-semibold">{{ weather.cityHumidity }}</h3>
+          <Drop class="fill-slate-100 w-5" />
+          <strong class="font-semibold">{{ city.humidity + '%' }}</strong>
         </div>
       </div>
     </div>
+
     <div class="flex justify-center items-center gap-4 text-slate-100">
       <div class="flex items-center gap-1 text-lg">
-        <i class="ri-map-pin-line"></i>
-        <h3 class="font-semibold">{{ weather.cityName }}</h3>
+        <strong class="font-semibold">{{ city.name }}</strong>
       </div>
-      <div class="w-8 text-lg"><img crossorigin="anonymous" class="w-full" :src="weather.countrySrc"></div>
+
+      <div class="w-8 text-lg">
+        <img
+          class="w-full"
+          :src="countryFlagSrc" />
+      </div>
     </div>
   </div>
 </template>
