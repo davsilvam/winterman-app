@@ -62,6 +62,9 @@ git clone [https://github.com/davsilvam/towo-list.git](https://github.com/davsil
 # Instalando as dependências
 npm install
 
+# Criar arquivo .env com base no .env.example e preencher o campo com sua chave da API
+VITE_API_KEY="<sua_chave>"
+
 # Compilar e abrir o programa para desenvolvimento
 npm run dev
 
