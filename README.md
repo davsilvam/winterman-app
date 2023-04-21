@@ -56,7 +56,7 @@ Recomendo que veja a [documentação de configuração do Vite](https://vitejs.d
 
 ```sh
 # Clonando o projeto
-git clone [https://github.com/davsilvam/towo-list.git](https://github.com/davsilvam/winterman-app.git)
+git clone https://github.com/davsilvam/winterman-app.git
 
 # Instalando as dependências
 npm install
