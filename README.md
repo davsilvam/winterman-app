@@ -1,8 +1,6 @@
 # Winterman
 
-<h1 align="center">
-    <img src="./.github/banner-winterman.png" style="width: 100%">
-</h1>
+<img src="./.github/banner-winterman.png" />
 
 ## :snowman: **Sobre o Projeto**
 
