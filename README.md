@@ -1,9 +1,10 @@
 # Winterman
-## :snowman: **Projeto**
 
 <h1 align="center">
     <img src="./.github/banner-winterman.png" style="width: 100%">
 </h1>
+
+## :snowman: **Sobre o Projeto**
 
 O Winterman é um projeto criado com a [Open Weather API](https://openweathermap.org), uma API de clima, e se baseia em um página que traz o clima da cidade que o usuário pesquisar.
 
