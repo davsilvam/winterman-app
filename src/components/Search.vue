@@ -22,7 +22,7 @@
     />
 
     <input
-      v-model="search"
+      v-model.trim="search"
       @keydown="
         ({ key }) => {
           if (key === 'Enter') {
