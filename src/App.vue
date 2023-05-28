@@ -1,43 +1,37 @@
 <script setup lang="ts">
-  import InputSearch from './components/InputSearch.vue'
-  import Snowman from './components/Snowman.vue'
-  import CityWeatherCard from './components/CityWeatherCard.vue'
+  import { onMounted } from 'vue'
+  import { storeToRefs } from 'pinia'
+  import AppHeader from './components/AppHeader.vue'
+  import WeatherCard from './components/WeatherCard.vue'
   import { useWeather } from './stores'
 
-  const weather = useWeather()
+  const { city } = storeToRefs(useWeather())
+  const { getWeatherData } = useWeather()
+
+  async function getInitialWeatherData() {
+    await getWeatherData('Fortaleza')
+  }
+
+  const TOMTOM_API_KEY = import.meta.env.VITE_TOMTOM_API_KEY
+
+  onMounted(() => {
+    getInitialWeatherData()
+  })
 </script>
 
 <template>
   <div
-    class="w-full min-h-screen bg-gradient flex items-center justify-center md:px-16">
+    class="relative flex min-h-screen w-full items-center bg-tuna-950 bg-cover bg-center md:justify-center md:px-16"
+    :style="{
+      backgroundImage: `url(https://api.tomtom.com/map/1/staticimage?key=${TOMTOM_API_KEY}&zoom=10&center=${city.lon},${city.lat}&format=jpg&layer=basic&style=night&width=1400&height=800&view=Unified&language=pt-BR)`,
+    }"
+  >
     <div
-      class="w-full max-w-2xl max-md:h-screen md:rounded-2xl bg-gray-800 flex flex-col items-center justify-center gap-6 p-8">
-      <div class="w-full flex flex-col items-center gap-5">
-        <header class="flex flex-col items-center">
-          <h1 class="text-slate-100 text-3xl font-semibold">Winterman ☃️</h1>
-          <h2 class="text-slate-300">Confira o clima:</h2>
-        </header>
+      class="absolute left-0 top-0 h-screen w-full bg-tuna-950 opacity-70"
+    ></div>
 
-        <InputSearch />
-      </div>
+    <AppHeader />
 
-      <hr class="w-full border border-slate-500" />
-
-      <div v-if="!weather.isLoading">
-        <Snowman v-if="weather.suggest" />
-        <CityWeatherCard v-else />
-      </div>
-
-      <div
-        v-if="weather.isLoading"
-        class="w-full px-10 animate-pulse flex items-center justify-center gap-2">
-        <div class="w-full h-16 bg-slate-400" />
-
-        <div class="w-full flex flex-col items-center gap-2">
-          <div class="w-full h-6 bg-slate-400" />
-          <div class="w-full h-6 bg-slate-400" />
-        </div>
-      </div>
-    </div>
+    <WeatherCard />
   </div>
 </template>
