@@ -3,10 +3,10 @@
   import { ArrowRight, Search } from 'lucide-vue-next'
   import { useWeather } from '../stores'
 
-  const search = ref('')
-
   const { getWeatherData } = useWeather()
 
+  const search = ref('')
+  
   function handleSearch() {
     getWeatherData(search.value)
   }
