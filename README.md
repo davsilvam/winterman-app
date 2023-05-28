@@ -11,14 +11,17 @@ O Winterman é um projeto criado com a [Open Weather API](https://openweathermap
 </p>
 
 ## :art: **Visual do Projeto**
-### *Desktop e Telas Maiores*
+
+### _Desktop e Telas Maiores_
+
 <h1 align="center">
-    <img src="./.github/desktop-screenshot.gif" style="width: 70%">
+    <img src="./.github/desktop.png" style="width: 70%">
 </h1>
 
-### *Mobile e Telas Menores*
+### _Mobile e Telas Menores_
+
 <h1 align="center">
-    <img src="./.github/mobile-screenshot.gif" style="width: 40%;">
+    <img src="./.github/mobile.png" style="width: 40%;">
 </h1>
 
 ## :wrench: **Tecnologias**
@@ -30,13 +33,13 @@ Tecnologias utilizadas no projeto.
 - [TypeScript](https://www.typescriptlang.org)
 - [Vue.js](https://vuejs.org)
 - [Open Weather API](https://openweathermap.org)
-- [Country Flags API](https://countryflagsapi.com)
+- [TomTom API](https://www.tomtom.com)
 - [Vite](https://vitejs.dev/)
 
 ### :art: **Estilização**
 
 - [Tailwind CSS](https://tailwindcss.com)
-- [Heroicons](https://heroicons.com)
+- [Lucide Icons](https://lucide.dev)
 - [Google Fonts](https://fonts.google.com)
 
 ### :open_file_folder: **IDE, Versionamento e Deploy**
@@ -49,10 +52,11 @@ Tecnologias utilizadas no projeto.
 ## :rocket: **Configurações e Instalação**
 
 ### Requisitos
+
 - [Node e NPM](https://nodejs.org/)
 - [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
 
-Recomendo que veja a [documentação de configuração do Vite](https://vitejs.dev/config/). 
+Recomendo que veja a [documentação de configuração do Vite](https://vitejs.dev/config/).
 
 ```sh
 # Clonando o projeto
@@ -61,8 +65,9 @@ git clone https://github.com/davsilvam/winterman-app.git
 # Instalando as dependências
 npm install
 
-# Criar arquivo .env com base no .env.example e preencher o campo com sua chave da API
-VITE_API_KEY="<sua_chave>"
+# Criar arquivo .env com base no .env.example e preencher o campo com suas chaves das API
+VITE_OPEN_WEATHER_API_KEY="<sua-chave-aqui>"
+VITE_TOMTOM_API_KEY="<sua-chave-aqui>"
 
 # Compilar e abrir o programa para desenvolvimento
 npm run dev
@@ -70,10 +75,6 @@ npm run dev
 # Compilar e minificar para produção
 npm run build
 ```
-
-## :balloon: Inspiração
-
-Projeto inspirado no [vídeo do Mateus Battisti](https://www.youtube.com/watch?v=VS8EBgPwsSU&t=125s).
 
 ## :balance_scale: **Licença**
 
