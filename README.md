@@ -1,6 +1,6 @@
 # Winterman
 
-<img src="./.github/banner-winterman.png" />
+<img src="./.github/banner.png" />
 
 ## :snowman: **Sobre o Projeto**
 
