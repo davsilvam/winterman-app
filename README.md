@@ -81,7 +81,7 @@ npm run build
 Esse projeto está sob a [licença MIT](https://github.com/davsilvam/winterman-app/blob/main/LICENSE.md).
 
 <p align="center">
-  Feito com :purple_heart: por <a href="https://www.linkedin.com/in/davsilvam/">David Silva</a>.
+  Feito com 💙 e ☕ por <a href="https://www.linkedin.com/in/davsilvam/">David Silva</a>.
 </p>
 
 ---
