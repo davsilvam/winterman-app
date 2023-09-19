@@ -1,22 +1,19 @@
 <script setup lang="ts">
-  import { onMounted } from 'vue'
-  import { storeToRefs } from 'pinia'
-  import AppHeader from './components/AppHeader.vue'
-  import WeatherCard from './components/WeatherCard.vue'
-  import { useWeather } from './stores'
+import { onMounted } from 'vue'
 
-  const { city } = storeToRefs(useWeather())
-  const { getWeatherData } = useWeather()
+import { Header, WeatherCard } from './components'
+import { TOMTOM_API_KEY } from './constants'
+import { useWeather } from './stores'
 
-  async function getInitialWeatherData() {
-    await getWeatherData('Fortaleza')
-  }
+const { city, getWeatherData } = useWeather()
 
-  const TOMTOM_API_KEY = import.meta.env.VITE_TOMTOM_API_KEY
+onMounted(() => {
+  getInitialWeatherData()
+})
 
-  onMounted(() => {
-    getInitialWeatherData()
-  })
+async function getInitialWeatherData() {
+  await getWeatherData('Fortaleza')
+}
 </script>
 
 <template>
@@ -28,9 +25,9 @@
   >
     <div
       class="absolute left-0 top-0 h-screen w-full bg-tuna-950 opacity-70"
-    ></div>
+    />
 
-    <AppHeader />
+    <Header />
 
     <WeatherCard />
   </div>

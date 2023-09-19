@@ -2,22 +2,10 @@ import { defineStore } from 'pinia'
 import { reactive, ref } from 'vue'
 
 import { AxiosError } from 'axios'
-import { instance } from '../services/axios'
+import { instance } from '../services'
 
-import { CityWeatherResponse } from '../@types/api'
-
-interface City {
-  name: string
-  weather_description: string
-  lon: number
-  lat: number
-  icon: string
-  max: number
-  min: number
-  humidity: number
-}
-
-const OPEN_WEATHER_API_KEY = import.meta.env.VITE_OPEN_WEATHER_API_KEY
+import { City, CityWeatherResponse } from '../entities'
+import { OPEN_WEATHER_API_KEY } from '../constants'
 
 export const useWeather = defineStore('weather', () => {
   const isLoading = ref<boolean>(false)
@@ -49,21 +37,19 @@ export const useWeather = defineStore('weather', () => {
       city.humidity = data.main.humidity
       city.weather_description = data.weather[0].description
 
-      isLoading.value = false
-
       return data
-    } catch (error) {
-      isLoading.value = false
-
+    }
+    catch (error) {
       if (error instanceof AxiosError) {
-        if (error.response?.status === 500) {
+        if (error.response?.status === 500)
           throw new Error('Erro no servidor.')
-        }
 
-        if (error.response?.status === 401) {
+        if (error.response?.status === 401)
           throw new Error('Não autorizado.')
-        }
       }
+    }
+    finally {
+      isLoading.value = false
     }
   }
 

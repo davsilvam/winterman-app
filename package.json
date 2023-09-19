@@ -1,8 +1,8 @@
 {
-  "name": "winterman-app-ts",
-  "private": true,
-  "version": "0.0.0",
+  "name": "winterman-app",
   "type": "module",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
@@ -15,8 +15,11 @@
     "vue": "^3.2.47"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^0.40.2",
     "@vitejs/plugin-vue": "^4.1.0",
     "autoprefixer": "^10.4.14",
+    "eslint": "^8.47.0",
+    "eslint-plugin-tailwindcss": "^3.13.0",
     "postcss": "^8.4.22",
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.3.0",

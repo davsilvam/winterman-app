@@ -1,11 +1,11 @@
-type Weather = {
+interface Weather {
   id: number
   main: string
   description: string
   icon: string
 }
 
-type Main = {
+interface Main {
   temp: number
   feels_like: number
   temp_min: number
@@ -14,7 +14,7 @@ type Main = {
   humidity: number
 }
 
-type Sys = {
+interface Sys {
   type: number
   id: number
   country: string
@@ -39,4 +39,14 @@ export interface CityWeatherResponse {
   id: number
   name: string
   cod: number
+}
+
+export interface City extends Pick<CityWeatherResponse, 'name'> {
+  weather_description: string
+  lon: number
+  lat: number
+  icon: string
+  max: number
+  min: number
+  humidity: number
 }

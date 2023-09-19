@@ -1,10 +1,10 @@
 <script lang="ts" setup>
-  import { MapPin } from 'lucide-vue-next'
-  import Search from './Search.vue'
-  import { useWeather } from '../stores'
-  import { storeToRefs } from 'pinia'
+import { MapPin } from 'lucide-vue-next'
+import { storeToRefs } from 'pinia'
+import { useWeather } from '../stores'
+import Search from './Search.vue'
 
-  const { city, isLoading } = storeToRefs(useWeather())
+const { city, isLoading } = storeToRefs(useWeather())
 </script>
 
 <template>
