@@ -2,6 +2,13 @@
 
 <img src="./.github/banner.png" />
 
+## :bookmark: **Sumário**
+- [Sobre o Projeto](#snowman-sobre-o-projeto)
+- [Visual do Projeto](#art-visual-do-projeto)
+- [Tecnologias](#wrench-tecnologias)
+- [Configurações e Instalação](#rocket-configurações-e-instalação)
+- [Licença](#balance_scale-licença)
+
 ## :snowman: **Sobre o Projeto**
 
 O Winterman é um projeto criado com a [Open Weather API](https://openweathermap.org), uma API de clima, e se baseia em um página que traz o clima da cidade que o usuário pesquisar.
@@ -58,7 +65,7 @@ Tecnologias utilizadas no projeto.
 
 Recomendo que veja a [documentação de configuração do Vite](https://vitejs.dev/config/).
 
-```sh
+```shell
 # Clonando o projeto
 git clone https://github.com/davsilvam/winterman-app.git
 
