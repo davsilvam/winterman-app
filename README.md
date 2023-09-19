@@ -67,7 +67,7 @@ Tecnologias utilizadas no projeto.
 ### Requisitos
 
 - [Node](https://nodejs.org/) e um gerenciador de pacotes, usei [npm](https://www.npmjs.com).
-- Extensão [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+- Extensão [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar).
 
 Recomendo que veja a [documentação de configuração do Vite](https://vitejs.dev/config/).
 
