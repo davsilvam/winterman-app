@@ -5,8 +5,14 @@
 ## :bookmark: **Sumário**
 - [Sobre o Projeto](#snowman-sobre-o-projeto)
 - [Visual do Projeto](#art-visual-do-projeto)
+   - [Desktop e Telas Maiores](#desktop-e-telas-maiores)
+   - [Mobile e Telas Menores](#mobile-e-telas-menores)
 - [Tecnologias](#wrench-tecnologias)
+   - [Construção do site](#construção-do-site)
+   - [Estilização](#estilização)
+   - [IDE, Versionamento e Deploy](#ide-versionamento-e-deploy)
 - [Configurações e Instalação](#rocket-configurações-e-instalação)
+     - [Requisitos](#requisitos)
 - [Licença](#balance_scale-licença)
 
 ## :snowman: **Sobre o Projeto**
@@ -35,7 +41,7 @@ O Winterman é um projeto criado com a [Open Weather API](https://openweathermap
 
 Tecnologias utilizadas no projeto.
 
-### :hammer: **Construção do site**
+### **Construção do site**
 
 - [TypeScript](https://www.typescriptlang.org)
 - [Vue.js](https://vuejs.org)
@@ -43,13 +49,13 @@ Tecnologias utilizadas no projeto.
 - [TomTom API](https://www.tomtom.com)
 - [Vite](https://vitejs.dev/)
 
-### :art: **Estilização**
+### **Estilização**
 
 - [Tailwind CSS](https://tailwindcss.com)
 - [Lucide Icons](https://lucide.dev)
 - [Google Fonts](https://fonts.google.com)
 
-### :open_file_folder: **IDE, Versionamento e Deploy**
+### **IDE, Versionamento e Deploy**
 
 - [Visual Studio Code](https://code.visualstudio.com)
 - [Git](https://git-scm.com)
@@ -87,8 +93,10 @@ npm run build
 
 Esse projeto está sob a [licença MIT](https://github.com/davsilvam/winterman-app/blob/main/LICENSE.md).
 
-<p align="center">
-  Feito com 💙 e ☕ por <a href="https://www.linkedin.com/in/davsilvam/">David Silva</a>.
-</p>
-
 ---
+
+Feito com 💙 e ☕ por <a href="https://www.linkedin.com/in/davsilvam/">David Silva</a>.
+
+> [Portfólio](https://davidsilvam.vercel.app) &nbsp;&middot;&nbsp;
+> GitHub [@davsilvam](https://github.com/davsilvam) &nbsp;&middot;&nbsp;
+> Instagram [@davsilvam_](https://www.instagram.com/davsilvam_/)
