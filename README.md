@@ -47,23 +47,23 @@ O Winterman é um projeto criado com a [Open Weather API](https://openweathermap
 
 ### S - Situation
 
-Fiz esse projeto sozinho, com base em aplicações que havia visto no YouTube que consumiam essa API de clima.
+> Fiz esse projeto sozinho, com base em aplicações que havia visto no YouTube que consumiam essa API de clima.
 
 ### T - Tasks
 
-Meu objetivo era implementar uma pesquisa sobre o clima do lugar que o usuário pesquisasse e implementar com outra API que trouxesse algum feedback visual. A parte mais complicada foi integrar as duas API's e sincronizar suas requisições.
+> Meu objetivo era implementar uma pesquisa sobre o clima do lugar que o usuário pesquisasse e implementar com outra API que trouxesse algum feedback visual. A parte mais complicada foi integrar as duas API's e sincronizar suas requisições.
 
 ### A - Action
 
-Para que o usuário recebesse o feedback visual, eu implementei a API de mapas da TomTom e fiz com que ela seguisse o que fosse pesquisado pelo usuário.
+> Para que o usuário recebesse o feedback visual, eu implementei a API de mapas da TomTom e fiz com que ela seguisse o que fosse pesquisado pelo usuário.
 
 ### R - Results
 
-O resultado foi a criação de uma interface simples e intuitiva, que trazia as condições do tempo e um mapa de fundo, abrindo espaço para o usuário se aventurar pela aplicação.
+> O resultado foi a criação de uma interface simples e intuitiva, que trazia as condições do tempo e um mapa de fundo, abrindo espaço para o usuário se aventurar pela aplicação.
 
 ### T - Take Away
 
-Com esse projeto pude usar um gerenciador de estados para compartilhar informações entre meus componentes, além de fazer requisições para múltiplas API's de uma vez.
+> Com esse projeto pude usar um gerenciador de estados para compartilhar informações entre meus componentes, além de fazer requisições para múltiplas API's de uma vez.
 
 ## :wrench: **Tecnologias**
 
