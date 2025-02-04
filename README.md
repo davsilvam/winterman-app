@@ -3,17 +3,19 @@
 <img src="./.github/banner.png" />
 
 ## :bookmark: **Sumário**
-- [Sobre o Projeto](#snowman-sobre-o-projeto)
-- [Visual do Projeto](#art-visual-do-projeto)
-   - [Desktop e Telas Maiores](#desktop-e-telas-maiores)
-   - [Mobile e Telas Menores](#mobile-e-telas-menores)
-- [Tecnologias](#wrench-tecnologias)
-   - [Construção do site](#construção-do-site)
-   - [Estilização](#estilização)
-   - [IDE, Versionamento e Deploy](#ide-versionamento-e-deploy)
-- [Configurações e Instalação](#rocket-configurações-e-instalação)
-     - [Requisitos](#requisitos)
-- [Licença](#balance_scale-licença)
+- [Winterman](#winterman)
+  - [:bookmark: **Sumário**](#bookmark-sumário)
+  - [:snowman: **Sobre o Projeto**](#snowman-sobre-o-projeto)
+  - [:art: **Visual do Projeto**](#art-visual-do-projeto)
+    - [_Desktop e Telas Maiores_](#desktop-e-telas-maiores)
+    - [_Mobile e Telas Menores_](#mobile-e-telas-menores)
+  - [:wrench: **Tecnologias**](#wrench-tecnologias)
+    - [**Construção do site**](#construção-do-site)
+    - [**Estilização**](#estilização)
+    - [**IDE, Versionamento e Deploy**](#ide-versionamento-e-deploy)
+  - [:rocket: **Configurações e Instalação**](#rocket-configurações-e-instalação)
+    - [Requisitos](#requisitos)
+  - [:balance\_scale: **Licença**](#balance_scale-licença)
 
 ## :snowman: **Sobre o Projeto**
 
@@ -28,13 +30,13 @@ O Winterman é um projeto criado com a [Open Weather API](https://openweathermap
 ### _Desktop e Telas Maiores_
 
 <h1 align="center">
-    <img src="./.github/desktop.png" style="width: 70%">
+    <img src="./.github/desktop.png">
 </h1>
 
 ### _Mobile e Telas Menores_
 
 <h1 align="center">
-    <img src="./.github/mobile.png" style="width: 40%;">
+    <img src="./.github/mobile.png">
 </h1>
 
 ## :wrench: **Tecnologias**
