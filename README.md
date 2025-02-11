@@ -1,21 +1,22 @@
-# Winterman
+<h1 align="center">
+   <img height="80" src="https://emojigraph.org/media/microsoft/snowman_2603-fe0f.png">
+   <br>
+   <span>Winterman</span>
+</h1>
 
-<img src="./.github/banner.png" />
+<h4 align="center">
+    Seu clima, na ponta dos dedos.
+</h4>
 
-## :bookmark: **Sumário**
-- [Winterman](#winterman)
-  - [:bookmark: **Sumário**](#bookmark-sumário)
-  - [:snowman: **Sobre o Projeto**](#snowman-sobre-o-projeto)
-  - [:art: **Visual do Projeto**](#art-visual-do-projeto)
-    - [_Desktop e Telas Maiores_](#desktop-e-telas-maiores)
-    - [_Mobile e Telas Menores_](#mobile-e-telas-menores)
-  - [:wrench: **Tecnologias**](#wrench-tecnologias)
-    - [**Construção do site**](#construção-do-site)
-    - [**Estilização**](#estilização)
-    - [**IDE, Versionamento e Deploy**](#ide-versionamento-e-deploy)
-  - [:rocket: **Configurações e Instalação**](#rocket-configurações-e-instalação)
-    - [Requisitos](#requisitos)
-  - [:balance\_scale: **Licença**](#balance_scale-licença)
+<p align="center">
+   <a href="#snowman-sobre-o-projeto">Sobre o Projeto</a> •
+   <a href="#art-visual-do-projeto">Visual do Projeto</a> •
+   <a href="#wrench-tecnologias">Tecnologias</a> •
+   <a href="#rocket-configurações-e-instalação">Configurações e Instalação</a> •
+   <a href="#balance_scale-licença">Licença</a>
+</p>
+
+<img src="./.github/banner.png" width="100%" />
 
 ## :snowman: **Sobre o Projeto**
 
@@ -27,17 +28,8 @@ O Winterman é um projeto criado com a [Open Weather API](https://openweathermap
 
 ## :art: **Visual do Projeto**
 
-### _Desktop e Telas Maiores_
-
-<h1 align="center">
-    <img src="./.github/desktop.png">
-</h1>
-
-### _Mobile e Telas Menores_
-
-<h1 align="center">
-    <img src="./.github/mobile.png">
-</h1>
+![Desktop screenshot.](./.github/desktop.png)
+![Mobile screenshot.](./.github/mobile.png)
 
 ## :wrench: **Tecnologias**
 
